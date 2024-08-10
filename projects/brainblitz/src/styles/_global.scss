@@ -1,19 +1,11 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-body, 'Roboto', sans-serif);
   font-size: $font-size-base;
-  background-color: var(--light-bg);
-  color: var(--light-text);
-
-  &.dark {
-    background-color: var(--dark-bg);
-    color: var(--dark-text);
-  }
+  background-color: var(--bg);
+  color: var(--text);
 }
 
-
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;

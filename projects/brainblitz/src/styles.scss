@@ -7,13 +7,82 @@
 @import 'tailwindcss/utilities';
 
 :root {
-  --light-bg: #{$light-bg};
-  --light-text: #{$light-text};
-  --light-primary: #{$light-primary};
-  --light-secondary: #{$light-secondary};
+  --bg: #{$light-bg};
+  --text: #{$light-text};
+  --primary: #{$light-primary};
+  --primary-foreground: #{$light-primary-foreground};
+  --secondary: #{$light-secondary};
+  --secondary-foreground: #{$light-secondary-foreground};
+  --accent: #{$light-accent};
+  --accent-foreground: #{$light-accent-foreground};
+  --destructive: #{$light-destructive};
+  --destructive-foreground: #{$light-destructive-foreground};
+  --muted: #{$light-muted};
+  --muted-foreground: #{$light-muted-foreground};
+  --card: #{$light-card};
+  --card-foreground: #{$light-card-foreground};
+  --popover: #{$light-popover};
+  --popover-foreground: #{$light-popover-foreground};
+  --border: #{$light-border};
+  --input: #{$light-input};
+  --ring: #{$light-ring};
+  --radius: #{$radius};
+}
 
-  --dark-bg: #{$dark-bg};
-  --dark-text: #{$dark-text};
-  --dark-primary: #{$dark-primary};
-  --dark-secondary: #{$dark-secondary};
+html[data-theme="dark"] {
+  --bg: #{$dark-bg};
+  --text: #{$dark-text};
+  --primary: #{$dark-primary};
+  --primary-foreground: #{$dark-primary-foreground};
+  --secondary: #{$dark-secondary};
+  --secondary-foreground: #{$dark-secondary-foreground};
+  --accent: #{$dark-accent};
+  --accent-foreground: #{$dark-accent-foreground};
+  --destructive: #{$dark-destructive};
+  --destructive-foreground: #{$dark-destructive-foreground};
+  --muted: #{$dark-muted};
+  --muted-foreground: #{$dark-muted-foreground};
+  --card: #{$dark-card};
+  --card-foreground: #{$dark-card-foreground};
+  --popover: #{$dark-popover};
+  --popover-foreground: #{$dark-popover-foreground};
+  --border: #{$dark-border};
+  --input: #{$dark-input};
+  --ring: #{$dark-ring};
+}
+
+html[data-theme="ocean"] {
+  --bg: #{$ocean-bg};
+  --text: #{$ocean-text};
+  --primary: #{$ocean-primary};
+  --primary-foreground: #{$ocean-primary-foreground};
+  --secondary: #{$ocean-secondary};
+  --secondary-foreground: #{$ocean-secondary-foreground};
+  --accent: #{$ocean-accent};
+  --accent-foreground: #{$ocean-accent-foreground};
+  --destructive: #{$ocean-destructive};
+  --destructive-foreground: #{$ocean-destructive-foreground};
+  --muted: #{$ocean-muted};
+  --muted-foreground: #{$ocean-muted-foreground};
+  --card: #{$ocean-card};
+  --card-foreground: #{$ocean-card-foreground};
+  --popover: #{$ocean-popover};
+  --popover-foreground: #{$ocean-popover-foreground};
+  --border: #{$ocean-border};
+  --input: #{$ocean-input};
+  --ring: #{$ocean-ring};
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-primary-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
 }

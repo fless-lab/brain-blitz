@@ -1,0 +1,19 @@
+@import './styles/_variables.scss';
+@import './styles/_mixins.scss';
+@import './styles/_global.scss';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --light-bg: #{$light-bg};
+  --light-text: #{$light-text};
+  --light-primary: #{$light-primary};
+  --light-secondary: #{$light-secondary};
+
+  --dark-bg: #{$dark-bg};
+  --dark-text: #{$dark-text};
+  --dark-primary: #{$dark-primary};
+  --dark-secondary: #{$dark-secondary};
+}

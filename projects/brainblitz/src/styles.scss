@@ -1,3 +1,4 @@
+
 @import './styles/_variables.scss';
 @import './styles/_mixins.scss';
 @import './styles/_global.scss';
@@ -18,7 +19,7 @@
   }
 
   body {
-    @apply text-primary-foreground font-body;
+    @apply bg-background text-primary-foreground font-body;
   }
 
   h1, h2, h3, h4, h5, h6 {

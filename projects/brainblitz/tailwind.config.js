@@ -1,11 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 const { createThemes } = require('tw-colors');
 const { themes } = require('./src/styles/themes');
 const fontFamily = require('tailwindcss/defaultTheme').fontFamily;
 
 module.exports = {
-  content: [
-    "./src/**/*.{html,ts,js,scss}",
-  ],
+  content: ["./projects/***/**/*.{html,ts}"],
   theme: {
     extend: {
       fontFamily: {

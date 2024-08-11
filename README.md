@@ -28,7 +28,7 @@ To set up BrainBlitz locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/brainblitz.git
+   git clone https://github.com/fless-lab/brainblitz.git
    cd brainblitz
    ```
 

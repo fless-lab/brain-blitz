@@ -1,74 +1,24 @@
-// Couleurs principales
-$white: #ffffff;
-$black: #000000;
-
-// Couleurs pour le thème clair
-$light-bg: hsl(36, 39%, 88%);
-$light-text: hsl(36, 45%, 15%);
-$light-primary: hsl(36, 45%, 70%);
-$light-primary-foreground: hsl(36, 45%, 11%);
-$light-secondary: hsl(40, 35%, 77%);
-$light-secondary-foreground: hsl(36, 45%, 25%);
-$light-accent: hsl(36, 64%, 57%);
-$light-accent-foreground: hsl(36, 72%, 17%);
-$light-destructive: hsl(0, 84%, 37%);
-$light-destructive-foreground: hsl(0, 0%, 98%);
-$light-muted: hsl(36, 33%, 75%);
-$light-muted-foreground: hsl(36, 45%, 25%);
-$light-card: hsl(36, 46%, 82%);
-$light-card-foreground: hsl(36, 45%, 20%);
-$light-popover: hsl(0, 0%, 100%);
-$light-popover-foreground: hsl(240, 10%, 3.9%);
-$light-border: hsl(36, 45%, 60%);
-$light-input: hsl(36, 45%, 60%);
-$light-ring: hsl(36, 45%, 30%);
-
-// Couleurs pour le thème sombre
-$dark-bg: hsl(36 100% 15%);
-$dark-text: hsl(36 100% 88%);
-$dark-primary: hsl(36 60% 70%);
-$dark-primary-foreground: hsl(36 100% 88%);
-$dark-secondary: hsl(40 50% 60%);
-$dark-secondary-foreground: hsl(36 100% 88%);
-$dark-accent: hsl(36 80% 57%);
-$dark-accent-foreground: hsl(36 100% 88%);
-$dark-destructive: hsl(0 80% 50%);
-$dark-destructive-foreground: hsl(0 100% 98%);
-$dark-muted: hsl(36 20% 40%);
-$dark-muted-foreground: hsl(36 100% 88%);
-$dark-card: hsl(36 20% 20%);
-$dark-card-foreground: hsl(36 100% 88%);
-$dark-popover: hsl(240 10% 15%);
-$dark-popover-foreground: hsl(36 100% 88%);
-$dark-border: hsl(36 20% 50%);
-$dark-input: hsl(36 20% 50%);
-$dark-ring: hsl(36 40% 50%);
-
-// Couleurs pour le thème Ocean
-$ocean-bg: hsl(210, 100%, 6%);
-$ocean-text: hsl(180, 100%, 90%);
-$ocean-primary: hsl(200, 100%, 28%);
-$ocean-primary-foreground: hsl(180, 100%, 90%);
-$ocean-secondary: hsl(203, 23%, 30%);
-$ocean-secondary-foreground: hsl(180, 100%, 90%);
-$ocean-accent: hsl(198, 70%, 50%);
-$ocean-accent-foreground: hsl(185, 10%, 13%);
-$ocean-destructive: hsl(0, 98%, 44%);
-$ocean-destructive-foreground: hsl(0, 0%, 100%);
-$ocean-muted: hsl(200, 50%, 30%);
-$ocean-muted-foreground: hsl(180, 100%, 90%);
-$ocean-card: hsl(210, 100%, 12%);
-$ocean-card-foreground: hsl(180, 100%, 90%);
-$ocean-popover: hsl(210, 100%, 15%);
-$ocean-popover-foreground: hsl(180, 100%, 90%);
-$ocean-border: hsl(210, 50%, 40%);
-$ocean-input: hsl(210, 50%, 40%);
-$ocean-ring: hsl(180, 100%, 90%);
-$ocean-radius: 0rem;
-
-// Variables globales pour les tailles et la typographie
-$font-size-base: 16px;
-$spacing-base: 1rem;
-$radius: 0rem;
-
-
+:root {
+  --background: hsl(var(--rtwc-background));
+  --foreground: hsl(var(--rtwc-foreground));
+  --primary: hsl(var(--rtwc-primary));
+  --primary-foreground: hsl(var(--rtwc-primary-foreground));
+  --secondary: hsl(var(--rtwc-secondary));
+  --secondary-foreground: hsl(var(--rtwc-secondary-foreground));
+  --accent: hsl(var(--rtwc-accent));
+  --accent-foreground: hsl(var(--rtwc-accent-foreground));
+  --destructive: hsl(var(--rtwc-destructive));
+  --destructive-foreground: hsl(var(--rtwc-destructive-foreground));
+  --muted: hsl(var(--rtwc-muted));
+  --muted-foreground: hsl(var(--rtwc-muted-foreground));
+  --card: hsl(var(--rtwc-card));
+  --card-foreground: hsl(var(--rtwc-card-foreground));
+  --popover: hsl(var(--rtwc-popover));
+  --popover-foreground: hsl(var(--rtwc-popover-foreground));
+  --border: hsl(var(--rtwc-border));
+  --input: hsl(var(--rtwc-input));
+  --ring: hsl(var(--rtwc-ring));
+  --radius: hsl(var(--rtwc-radius));
+  --font-body: 'Roboto', sans-serif;
+  --font-heading: 'Roboto', sans-serif;
+}

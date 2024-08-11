@@ -1,0 +1,12 @@
+.theme-switcher {
+  display: flex;
+  align-items: center;
+
+  select {
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+    color: var(--color-foreground);
+  }
+}

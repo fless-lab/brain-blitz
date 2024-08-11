@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { SharedRoutingModule } from './shared-routing.module';
-
+import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switcher.component';
+import { SelectComponent } from './components/form/select/select.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    ThemeSwitcherComponent,
+    SelectComponent
+  ],
   imports: [
-    CommonModule,
-    SharedRoutingModule
+    CommonModule
+  ],
+  exports: [
+    ThemeSwitcherComponent,
+    SelectComponent
   ]
 })
 export class SharedModule { }

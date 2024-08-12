@@ -2,7 +2,7 @@
   <select [value]="value" (change)="onSelectChange($event)"
     class="w-full bg-background text-foreground placeholder-foreground focus:outline-none p-4 rounded border-border"
     (blur)="onBlur()">
-    <option value="">{{ placeholder }}</option>
+    <option hidden selected disabled>{{ placeholder }}</option>
     <option *ngFor="let option of options" [value]="option.value">
       {{ option.label }}
     </option>

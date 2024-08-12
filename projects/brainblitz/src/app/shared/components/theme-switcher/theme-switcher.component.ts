@@ -10,7 +10,9 @@ export class ThemeSwitcherComponent {
   themes = [
     { label: 'Light', value: 'light' },
     { label: 'Dark', value: 'dark' },
-    { label: 'Ocean', value: 'ocean' }
+    { label: 'Ocean', value: 'ocean' },
+    { label: 'Nature', value: 'nature' },
+    { label: 'Earth', value: 'earth' }
   ];
 
   constructor(private themeService: ThemeService) {}

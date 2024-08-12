@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ThemeService } from '../../../core/services/theme.service';
+import { themeOptions } from '../../../../styles/themes';
 
 @Component({
   selector: 'app-theme-switcher',
@@ -7,13 +8,7 @@ import { ThemeService } from '../../../core/services/theme.service';
   styleUrls: ['./theme-switcher.component.scss']
 })
 export class ThemeSwitcherComponent {
-  themes = [
-    { label: 'Light', value: 'light' },
-    { label: 'Dark', value: 'dark' },
-    { label: 'Ocean', value: 'ocean' },
-    { label: 'Nature', value: 'nature' },
-    { label: 'Earth', value: 'earth' }
-  ];
+  themes = themeOptions;
 
   constructor(private themeService: ThemeService) {}
 

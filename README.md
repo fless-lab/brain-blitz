@@ -1,7 +1,3 @@
-Here's a draft for a README file for your **BrainBlitz** project. You can adjust the content as needed:
-
----
-
 # BrainBlitz
 
 BrainBlitz is an educational gaming platform designed to enhance knowledge in areas such as logic, mathematics, history, general culture, current affairs, and more. The platform includes various features like badges, daily challenges, rewards, a point and level system, multiplayer modes, leaderboards, and a community forum.

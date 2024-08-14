@@ -14,6 +14,10 @@ export const routes: Routes =  [
       {
         path: 'bump',
         loadChildren: () => import('./features/bump/bump.module').then(m => m.BumpModule)
+      },
+      {
+        path: 'help',
+        loadChildren: () => import('./features/assist/assist.module').then(m => m.AssistModule)
       }
     ]
   }
